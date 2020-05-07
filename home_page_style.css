@@ -1,0 +1,72 @@
+.header {
+    display:flex;
+    justify-content:center ;
+    flex-direction: column;
+    background-image: url('BlueSky.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+}
+
+@keyframes Part1 {  
+    from{font: outline;; left:100%; top:0%}  
+    to{font: outline;; left:0%; top:0%;}  
+}
+
+
+.images {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    right:50%;
+   bottom:60%;
+   position:relative;
+    animation-name:Part1;
+   animation-duration: 15s;
+   animation-fill-mode:both;
+}
+.Footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    background-image: url('BlueSky.JPG');
+    border-style: solid;
+    border-color: black;
+    background-repeat: no-repeat;
+   background-size: cover;
+   bottom: 0%;
+ }
+    
+.parentclass {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button1:hover {
+    background-color:blueviolet;
+    color: white;
+  }
+
+  .button2:hover {
+    background-color:blueviolet;
+    color: white;
+  }
+
+  .button3:hover {
+    background-color:blueviolet;
+    color: white;
+  }

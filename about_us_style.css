@@ -1,0 +1,74 @@
+
+ @keyframes Part1 {  
+    from{font: outline;; left:100%; top:0%}  
+    to{font: outline;; left:40%; top:0%;}  
+}
+.parentclass {
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.parentclass2 {
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url('BlueSky.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: black;
+    border-style: solid;
+    color: black; 
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    
+}
+
+.ContactDetails {
+    font-family:  'Times New Roman';
+    font-size: medium;
+}
+
+h1 {
+    font-size: x-large;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+}
+
+.button1:hover {
+    background-color:blueviolet;
+    color: white;
+  }
+
+  .button2:hover {
+    background-color:blueviolet;
+    color: white;
+  }
+
+  .button3:hover {
+    background-color:blueviolet;
+    color: white;
+  }
+
+  .Footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    background-image: url('BlueSky.JPG');
+    border-style: solid;
+    border-color: black;
+    background-repeat: no-repeat;
+   background-size: cover;
+   bottom: 0%;
+ }
+
